@@ -1,0 +1,17 @@
+#nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    background-color: red;
+  }
+}
+
+#form {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
